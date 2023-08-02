@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <h1>Gakalu</h1>
+    </header>
+    <main>
+        <div class="title">
+            <h2>Login</h2>
+        </div>
+        <div class="input">
+            <form action="./auth.js" method="post">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="password" name="password" id="password" placeholder="Senha">
+                <input type="button" value="Entrar">
+            </form>
+        </div>
+        <div class="trocarSenha">
+            <a href="trocarSenha.html">Esqueceu a Senha?</a>
+        </div>
+        <div class="inputGoogle">
+            <form action="https://accounts.google.com/" method="get">
+                <!--Essa action é figurativa, mas pretendo estudar como é feita a autenticação pelo google-->
+                <button type="submit">
+                    <img src="../Assets/google.svg" alt="google-logo">
+                    Entrar com o Google
+                </button>
+            </form>
+        </div>
+
+    </main>
+</body>
+
+</html>
