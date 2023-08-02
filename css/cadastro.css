@@ -47,20 +47,7 @@ main div.input form input{
     margin: 2mm;
 }
 
-main div.trocarSenha a{
-    color: #ffffff;
-}
-
-main div.inputGoogle button{
-    height: 22mm;
-    width: 85mm;
-    background-color: #ffffff;
-    margin: 2mm;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-main div.inputGoogle button img{
-    background-color: transparent;
+main div.input form label{
+    color: white;
+    font-size: 3mm;
 }

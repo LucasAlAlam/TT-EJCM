@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <script src="../script/cadastro.js"></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Gakalu</h1>
+    </header>
+    <main>
+        <div class="title">
+            <h2>Cadastro</h2>
+        </div>
+        <div class="input">
+            <form action="./auth.js" method="post">
+                <input type="text" name="nomeCompleto" id="nomeCompleto" placeholder="Nome Completo">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="password" name="password" id="password" placeholder="Senha">
+                <label for="password">Força da senha: <div class="strongPass"></div></label>
+                <input type="password" name="checkPassword" id="checkPassword" placeholder="Confirmar Senha">
+                <input type="button" value="Entrar">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
