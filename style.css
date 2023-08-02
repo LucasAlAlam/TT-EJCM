@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Krona One";
+    src: url("./Assets/font/Krona_One/KronaOne-Regular.ttf") format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Krona One;
+}
+
+header {
+    background-color: #0A0D24;
+    height: 475px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 50mm;
+}
+
+header a {
+    color: white;
+    font-size: 10mm;
+    text-decoration: none;
+    padding-top: 30mm;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header div.acessos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*--------------- MAIN ----------------------*/
+
+main article h3 {
+    text-align: center;
+    font-size: 15mm;
+    margin-top: 30mm;
+    margin-bottom: 15mm;
+
+}
+
+main article p {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    font-size: 10mm;
+    margin: 5mm;
+}
+
+main article div.iconesProdutos img {
+    width: 256px;
+    height: 256px;
+}
+
+main article div.iconesProdutos1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10mm;
+}
+
+main article div.iconesProdutos1 figcaption{
+    text-align: center;
+}
+
+/*----------------FOOTER----------------*/
+
+footer h3 {
+    text-align: center;
+    font-size: 15mm;
+    margin-top: 30mm;
+    margin-bottom: 15mm;
+
+}
+
+footer div.infoContato{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 5mm;
+}
+
+footer div.infoContato div.infoEscrita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer div.infoContato div.infoEscrita p{
+    font-size: 6mm;
+    margin: 10mm;
+}
