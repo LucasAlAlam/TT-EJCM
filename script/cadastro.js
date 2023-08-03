@@ -1,6 +1,6 @@
 const checarSenha = () => {
     const senha = new String(document.getElementById('password').value)
-    const imprimeForca = document.getElementsByClassName('strongPass')
+    const imprimeForca = document.getElementById('strongPass')
     const maiusculas = new RegExp('[A-Z]')
     const minusculas = new RegExp('[a-z]')
     const numeros = new RegExp('[0-9]')
